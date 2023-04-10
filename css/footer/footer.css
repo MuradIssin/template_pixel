@@ -1,0 +1,138 @@
+.footer {
+  background-color: #2F324B;
+  color: var(--color-reverse);
+  padding-top: 45px;
+  padding-bottom: 45px;
+}
+
+.footer__block {
+  max-width: 1200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  margin-top: auto;
+}
+
+.footer__wrapper {
+  display: flex;
+  gap: 19px;
+  align-items: center;
+  font-size: 12px;
+  line-height: 16.88px;
+}
+
+.footer__autor-separate {
+  background: #2A2C3F;
+  height: 47px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgba(256, 256, 256, 0.5);
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 17px;
+  display: none;
+}
+
+.footer__autor {
+  font-size: 12px;
+  line-height: 17px;
+  font-weight: 500;
+}
+
+/* ************************** */
+
+@media (max-width:1024px) {
+
+  .container {
+    padding: 0 30px;
+  }
+
+  .footer__block {
+    max-width: 964px;
+  }
+
+  .header__image {
+    height: 60px;
+    width: 60px;
+  }
+
+  .footer__autor {
+    color: rgba(256, 256, 256, 0.5);
+  }
+
+  .header__call {
+    width: 186px;
+    height: 26px;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 24.67px;
+    gap: 4px;
+  }
+
+  .header__call-me-back a {
+    width: 132px;
+    font-size: 13px;
+    line-height: 15px;
+  }
+}
+
+
+/* ********************** */
+
+/* @media (max-width: 320px) { */
+@media (max-width: 730px) {
+
+  .container {
+    padding: 0 15px;
+  }
+
+  .footer {
+    background-color: #2F324B;
+    color: var(--color-reverse);
+    padding-top: 45px;
+    padding-bottom: 45px;
+  }
+
+  .footer__block {
+    /* max-width: 290px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    margin-top: auto;
+  }
+
+  .footer__wrapper {
+    display: flex;
+    gap: 19px;
+    align-items: center;
+    font-size: 12px;
+    line-height: 16.88px;
+  }
+
+  .footer__autor {
+    display: none;
+  }
+
+  .header__call {
+    display: none;
+  }
+
+  .header__phone-logo {
+    display: flex;
+  }
+
+  .footer__autor-separate {
+    background: #2A2C3F;
+    height: 47px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(256, 256, 256, 0.5);
+    /* display: none; */
+  }
+}

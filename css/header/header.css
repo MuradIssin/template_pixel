@@ -1,0 +1,241 @@
+.first-page {
+  background: url("../../image/stag-office-mockup.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* min-height: 100vh; */
+  height: 732px;
+  width: 100%;
+  position: relative;
+}
+
+.first-page::before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(47, 50, 75, 0.85);
+}
+
+.header__block {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+  /* height: 68px; */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: no-wrap;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--color-reverse);
+  gap: 0;
+  padding-top: 40px;
+  margin-bottom: 120px;
+}
+
+.header__logo {
+  height: 68px;
+  width: 68px;
+}
+
+.header__call {
+  width: 208px;
+  height: 53px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-weight: 400;
+  font-size: 23.85px;
+  line-height: 28px;
+  gap: 1px;
+}
+
+.header__call-me-back a {
+  width: 132px;
+  font-size: 15.75px;
+  line-height: 18.75px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+
+.header__phone-logo {
+  background-image: url(../../image/Phone.png);
+  height: 24px;
+  width: 24px;
+  display: flex;
+  display: none;
+}
+
+.header__main {
+  max-width: 1200px;
+  /* height: 10px; */
+  /* height: calc(100vh - 108px - 120px - 120px); */
+  margin: 0 auto;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-evenly; */
+  align-items: center;
+  color: var(--color-reverse);
+  /* margin-bottom: 20px; */
+}
+
+.header__title {
+  max-width: 990px;
+  font-size: 52px;
+  line-height: 60.94px;
+  font-weight: 900;
+  text-align: center;
+  margin-bottom: 34px;
+}
+
+.header__discription {
+  max-width: 960px;
+  font-size: 22px;
+  line-height: 30.94px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 89px;
+}
+
+.header__button {
+  height: 48px;
+  /* margin-bottom: 120px; */
+}
+
+.header__more-btn {
+  width: 200px;
+  height: 48px;
+  background-color: var(--button-color);
+  color: var(--color-reverse);
+  box-shadow: 0px 4px 25px rgba(21, 169, 203, 0.3);
+  border-radius: 50px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ************************************************************************************* */
+@media (max-width: 1024px) {
+
+  .first-page {
+    height: 528px;
+  }
+
+  .container {
+    padding: 0 30px;
+  }
+
+  .header__block {
+    max-width: 964px;
+    /* height: 60px; */
+    padding-top: 26px;
+    margin-bottom: 70px;
+  }
+
+  .header__logo {
+    height: 60px;
+    width: 60px;
+  }
+
+  .header__wrapper {
+    display: flex;
+  }
+
+  .header__call {
+    width: 186px;
+    height: 26px;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 24.67px;
+    gap: 4px;
+  }
+
+  .header__call-me-back a {
+    width: 128px;
+    font-size: 13px;
+    line-height: 15.23px;
+  }
+
+  .header__main {
+    /* height: calc(100vh - 45px - 60px - 60px); */
+    margin-bottom: 70px;
+  }
+
+  .header__title {
+    max-width: 780px;
+    font-size: 40px;
+    line-height: 46.88px;
+    margin-bottom: 27.57px;
+  }
+
+  .header__discription {
+    max-width: 754px;
+    font-size: 18px;
+    line-height: 25.31px;
+    margin-bottom: 60.43px;
+  }
+
+  .header__more-btn {
+    /* height: 80px; */
+  }
+
+}
+
+/* @media (max-width: 320px) { */
+@media (max-width:660px) {
+
+  .first-page {
+    height: 441px;
+  }
+
+  .container {
+    padding: 0 15px;
+  }
+
+  .header__block {
+    max-width: 289.92px;
+    height: 30px;
+    margin-bottom: 65px;
+  }
+
+  .header__logo {
+    height: 30px;
+    width: 30px;
+  }
+
+  .header__phone,
+  .header__call-me-back {
+    display: none;
+  }
+
+  .header__phone-logo {
+    display: block;
+  }
+
+
+  .header__title {
+    max-width: 290px;
+    font-size: 20px;
+    line-height: 23.44px;
+    margin-bottom: 23px;
+  }
+
+  .header__discription {
+    max-width: 290px;
+    font-size: 14px;
+    line-height: 19.69px;
+    margin-bottom: 54px;
+  }
+
+  .header__more-btn {
+    width: 160px;
+    height: 38px;
+  }
+}

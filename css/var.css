@@ -1,0 +1,7 @@
+body {
+  --main-color: #F9F9F9;
+  --color-text: #383A4C;
+  --color-reverse: #ffffff;
+  --button-color: #23C7EC;
+  counter-reset: list-count 0;
+}
