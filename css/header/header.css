@@ -91,13 +91,14 @@
   margin-bottom: 34px;
 }
 
-.header__discription {
+.header__description {
   max-width: 960px;
   font-size: 22px;
   line-height: 30.94px;
   font-weight: 400;
   text-align: center;
   margin-bottom: 89px;
+  color: rgba(255, 255, 255, 0.75);
 }
 
 .header__button {
@@ -175,7 +176,7 @@
     margin-bottom: 27.57px;
   }
 
-  .header__discription {
+  .header__description {
     max-width: 754px;
     font-size: 18px;
     line-height: 25.31px;
@@ -227,7 +228,7 @@
     margin-bottom: 23px;
   }
 
-  .header__discription {
+  .header__description {
     max-width: 290px;
     font-size: 14px;
     line-height: 19.69px;
